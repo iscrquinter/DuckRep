@@ -1,38 +1,21 @@
 package paqDuck;
 
-import java.util.*;
 
 public class DuckSimulator {
-	
-	public static void processDucks(List<Duck> ducks) {
-		for (Duck d : ducks) {
-			System.out.println("--------------------");
-			System.out.println("Name: " + d.getClass().getName());
-			d.display();
-			d.performQuack();
-			d.performFly();
-			d.swim();
-		}
-		System.out.println("Done processing ducks\n");
-	}
-	
+
 	public static void main(String[] args) {
-		List<Duck> ducks = new LinkedList<Duck>();
+		DucksProcessor dpmx= new DucksProcessorMX("PROCESADOR DE PATOS MEXICANO");
 		
-		Duck myDuck = new RubberDuck();
+		dpmx.addDuck(dpmx.createDuck("Mallard"));
+		dpmx.addDuck(dpmx.createDuck("Redhead"));
 		
-		ducks.add(new MallardDuck());
-		ducks.add(new DecoyDuck());
-		ducks.add(new RedheadDuck());
-		ducks.add(myDuck);
+		dpmx.processDucks();
+				
+		DucksProcessor dpusa= new DucksProcessorMX("PROCESADOR DE PATOS USA");
 		
-		processDucks(ducks);
+		dpusa.addDuck(dpusa.createDuck("Mallard"));
+		dpusa.addDuck(dpusa.createDuck("Redhead"));
 		
-		// change my ducks' behavior dynamically to make a rubber
-		// duck that can fly rocket powered and speak
-		myDuck.setFlyBehavior(new FlyRocketPowered());
-		myDuck.setQuackBehavior(new Speak());
-		
-		processDucks(ducks);
+		dpmx.processDucks();
 	}
 }
