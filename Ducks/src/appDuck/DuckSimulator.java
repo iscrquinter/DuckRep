@@ -19,5 +19,14 @@ public class DuckSimulator {
 		dpusa.addDuck(dpusa.createDuck("Decoy")); 
 		
 		dpusa.processDucks();
+		
+		DucksProcessor dpmxusa=new DucksProcessorMXUSA("PROCESADOR DE PAGOS MX-USA");
+		
+		dpmxusa.addDuck(dpmxusa.createDuck("Mallard"));
+		dpmxusa.addDuck(dpmxusa.createDuck("Redhead"));
+		dpmxusa.addDuck(dpmxusa.createDuck("Rubber")); 
+		dpmxusa.addDuck(dpmxusa.createDuck("Decoy"));
+		
+		dpmxusa.processDucks();
 	}
 }
