@@ -11,11 +11,11 @@ public class DuckSimulator {
 		
 		dpmx.processDucks();
 				
-		DucksProcessor dpusa= new DucksProcessorMX("PROCESADOR DE PATOS USA");
+		DucksProcessor dpusa= new DucksProcessorUSA("PROCESADOR DE PATOS USA");
 		
-		dpusa.addDuck(dpusa.createDuck("Mallard"));
-		dpusa.addDuck(dpusa.createDuck("Redhead"));
+		dpusa.addDuck(dpusa.createDuck("Rubber")); 
+		dpusa.addDuck(dpusa.createDuck("Decoy")); 
 		
-		dpmx.processDucks();
+		dpusa.processDucks();
 	}
 }
