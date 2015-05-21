@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,7 +14,7 @@ public abstract class DucksProcessor {
 	
 // Factory Method ------------------------------------------------	
 	
-	protected abstract Duck createDuck(String type);
+	public abstract Duck createDuck(String type);
 		
 	public void processDucks() {
 		for (Duck d : ducks) {

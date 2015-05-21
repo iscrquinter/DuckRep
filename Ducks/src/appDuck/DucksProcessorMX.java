@@ -1,4 +1,9 @@
-package paqDuck;
+package appDuck;
+
+import frmDuck.Duck;
+import frmDuck.DucksProcessor;
+import frmDuck.MallardDuck;
+import frmDuck.RedheadDuck;
 
 public class DucksProcessorMX extends DucksProcessor {
 
@@ -7,7 +12,7 @@ public class DucksProcessorMX extends DucksProcessor {
 	}
 
 	@Override
-	protected Duck createDuck(String type) {
+	public Duck createDuck(String type) {
 		if (type.equals("Mallard"))
 		{
 			return new MallardDuck();

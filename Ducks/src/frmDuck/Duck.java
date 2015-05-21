@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;

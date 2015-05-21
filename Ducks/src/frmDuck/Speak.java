@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class Speak implements QuackBehavior {
 	
 	public void quack() {

@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class MallardDuck extends Duck {
  
 	public MallardDuck() {

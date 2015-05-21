@@ -1,4 +1,9 @@
-package paqDuck;
+package appDuck;
+
+import frmDuck.DecoyDuck;
+import frmDuck.Duck;
+import frmDuck.DucksProcessor;
+import frmDuck.RubberDuck;
 
 public class DucksProcessorUSA extends DucksProcessor {
 
@@ -7,7 +12,7 @@ public class DucksProcessorUSA extends DucksProcessor {
 	}
 
 	@Override
-	protected Duck createDuck(String type) {
+	public Duck createDuck(String type) {
 		if (type.equals("Decoy"))
 		{
 			return new DecoyDuck();

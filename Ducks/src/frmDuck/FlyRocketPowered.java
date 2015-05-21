@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class FlyRocketPowered implements FlyBehavior {
 
 	public void fly() {

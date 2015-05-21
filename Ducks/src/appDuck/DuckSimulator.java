@@ -1,4 +1,6 @@
-package paqDuck;
+package appDuck;
+
+import frmDuck.DucksProcessor;
 
 
 public class DuckSimulator {

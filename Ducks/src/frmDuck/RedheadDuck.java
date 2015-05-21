@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class RedheadDuck extends Duck {
  
 	public RedheadDuck() {

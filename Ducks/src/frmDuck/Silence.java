@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class Silence implements QuackBehavior {
 	public void quack() {
 		System.out.println("");

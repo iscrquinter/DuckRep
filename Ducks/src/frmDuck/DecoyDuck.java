@@ -1,4 +1,4 @@
-package paqDuck;
+package frmDuck;
 public class DecoyDuck extends Duck {
 	
 	public DecoyDuck() {
