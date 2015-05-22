@@ -1,5 +1,8 @@
 package appDuck;
 
+import appDuck.ducksProcessors.DucksProcessorMX;
+import appDuck.ducksProcessors.DucksProcessorMXUSA;
+import appDuck.ducksProcessors.DucksProcessorUSA;
 import frmDuck.DucksProcessor;
 
 

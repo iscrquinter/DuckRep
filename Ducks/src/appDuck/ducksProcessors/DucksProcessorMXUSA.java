@@ -1,4 +1,4 @@
-package appDuck;
+package appDuck.ducksProcessors;
 
 import frmDuck.DecoyDuck;
 import frmDuck.Duck;

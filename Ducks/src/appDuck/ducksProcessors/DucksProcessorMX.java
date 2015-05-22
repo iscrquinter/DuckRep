@@ -1,4 +1,4 @@
-package appDuck;
+package appDuck.ducksProcessors;
 
 import frmDuck.Duck;
 import frmDuck.DucksProcessor;
