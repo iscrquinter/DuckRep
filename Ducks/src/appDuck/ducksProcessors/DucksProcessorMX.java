@@ -1,9 +1,9 @@
 package appDuck.ducksProcessors;
 
+import appDuck.ducks.MallardDuck;
+import appDuck.ducks.RedheadDuck;
 import frmDuck.Duck;
 import frmDuck.DucksProcessor;
-import frmDuck.MallardDuck;
-import frmDuck.RedheadDuck;
 
 public class DucksProcessorMX extends DucksProcessor {
 

@@ -1,9 +1,9 @@
 package appDuck.ducksProcessors;
 
-import frmDuck.DecoyDuck;
+import appDuck.ducks.DecoyDuck;
+import appDuck.ducks.RubberDuck;
 import frmDuck.Duck;
 import frmDuck.DucksProcessor;
-import frmDuck.RubberDuck;
 
 public class DucksProcessorUSA extends DucksProcessor {
 

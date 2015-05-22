@@ -1,11 +1,11 @@
 package appDuck.ducksProcessors;
 
-import frmDuck.DecoyDuck;
+import appDuck.ducks.DecoyDuck;
+import appDuck.ducks.MallardDuck;
+import appDuck.ducks.RedheadDuck;
+import appDuck.ducks.RubberDuck;
 import frmDuck.Duck;
 import frmDuck.DucksProcessor;
-import frmDuck.MallardDuck;
-import frmDuck.RedheadDuck;
-import frmDuck.RubberDuck;
 
 public class DucksProcessorMXUSA extends DucksProcessor {
 

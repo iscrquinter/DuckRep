@@ -1,4 +1,9 @@
-package frmDuck;
+package appDuck.ducks;
+
+import frmDuck.CantFly;
+import frmDuck.Duck;
+import frmDuck.Silence;
+
 public class DecoyDuck extends Duck {
 	
 	public DecoyDuck() {

@@ -1,4 +1,9 @@
-package frmDuck;
+package appDuck.ducks;
+
+import frmDuck.CantFly;
+import frmDuck.Duck;
+import frmDuck.Squeak;
+
 public class RubberDuck extends Duck {
  
 	public RubberDuck() {

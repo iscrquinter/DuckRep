@@ -1,4 +1,9 @@
-package frmDuck;
+package appDuck.ducks;
+
+import frmDuck.Duck;
+import frmDuck.FlyWithWings;
+import frmDuck.Quack;
+
 public class MallardDuck extends Duck {
  
 	public MallardDuck() {

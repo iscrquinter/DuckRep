@@ -1,7 +1,7 @@
 package frmDuck;
 public class Duck {
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
+	protected FlyBehavior flyBehavior;
+	protected QuackBehavior quackBehavior;
 	
 	public Duck() {}
 	
@@ -13,7 +13,7 @@ public class Duck {
 		quackBehavior = qb;
 	}
 	
-	void display() {
+	public void display() {
 		System.out.println("I'm a duck");
 	}
 	
